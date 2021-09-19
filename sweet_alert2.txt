@@ -1,0 +1,395 @@
+Swal.fire({
+  title: 'Are you sure?',
+  text: "You won't be able to revert this!",
+  icon: 'warning',
+  showCancelButton: true,
+  confirmButtonColor: '#3085d6',
+  cancelButtonColor: '#d33',
+  confirmButtonText: 'Yes, delete it!'
+}).then((result) => {
+  if (result.value) {
+    Swal.fire(
+      'Deleted!',
+      'Your file has been deleted.',
+      'success'
+    )
+  }
+})
+---
+<?php
+  echo "Drive C: Disk Total Space = ".number_format(disk_total_space("C:")/1024/1024/1024,2)." GB<br>";
+  echo "Drive C: Disk Free Space = ".number_format(diskfreespace("C:")/1024/1024/1024,2)." GB<br>";
+?>
+---
+if (data)   {
+    ldLayer.fadeOut('slow');
+} else {
+    alert('no data');
+}
+---
+  <script>
+        window.print();
+        setTimeout(window.close, 0);
+    </script>
+---
+table, th, td {
+            border: 0.1px solid black;
+            border-collapse: collapse;
+        }
+----
+<script>
+        window.print();
+        setTimeout(window.close, 0);
+    </script>
+----
+
+Swal.fire({
+title: '',
+text: "ທ່ານຕ້ອງການບັນທຶກລາຍການແມ່ນ ຫຼື ບໍ່?",
+icon: 'question',
+showCancelButton: true,
+confirmButtonColor: '#3085d6',
+cancelButtonColor: '#d33',
+confirmButtonText: 'Yes',
+cancelButtonText: 'No'
+}).then((result) => {
+if (result.value) {
+    Swal.fire(
+    'Deleted!',
+    'Your file has been deleted.',
+    'success'
+    )
+}
+})
+----
+onclick='delete_row(this);'
+function delete_row(e){
+        $(e).parent().parent().remove();
+        cal_net();
+        newcount();
+    };
+----
+total=parseFloat(total.replace(/,/g,""));
+----------
+
+  <script>
+      function ajax(Vr,Div){
+        var ran = Math.random();
+        Vr += "&ran="+ran;
+        $("#"+Div).load("_.php?fls="+encodeURI(Vr), function(responseTxt, statusTxt, xhr){
+          if(statusTxt == "error")
+            response.write("Error: " + xhr.status + ": " + xhr.statusTxt);
+        });
+      }
+
+       var loadFile = function(event) {
+        var output = document.getElementById('output');
+        output.src = URL.createObjectURL(event.target.files[0]);
+        output.style.width='100%';
+        output.style.position = 'relative; top:50%'; 
+        output.style.transform = 'translateY(-50%)';
+      };
+-----code for pic
+      <?php
+          $pict = "pic/no-image.png";
+      ?>
+
+      <label for="pd_pict" style="width:100%; cursor:pointer">
+      <div style="border:#666 solid 1px; background-color:#CCC; width:100%; height:300px; overflow:hidden">
+        <img id="output" src="<?php echo $pict; ?>" width="100%" style="position: relative; top:50%; transform: translateY(-50%);">
+      </div>
+      <input type="file" name="pd_pict" id="pd_pict" style="display:none" value=""  accept="image/*" onchange="if(this.value!='') loadFile(event);">
+      </label>
+-----end code for pic
+
+      <tr>
+          <td>ຈຸດທີ່ຕ້ອງສັ່ງຊື້:</td>
+          <td><input class="form-control" type="text" name="" id=""
+          value=0 onkeyup="dokeyup(this);" onchange="dokeyup(this);" onkeypress="checknumber();"></td>
+      </tr>
+
+      function dokeyup( obj )
+        {
+        var key = event.keyCode;
+        if( key != 37 & key != 39 & key != 110 )
+        {
+        var value = obj.value;
+        var svals = value.split( "." ); //แยกทศนิยมออก
+        var sval = svals[0]; //ตัวเลขจำนวนเต็ม
+
+        var n = 0;
+        var result = "";
+        var c = "";
+        for ( a = sval.length - 1; a >= 0 ; a-- )
+        {
+        c = sval.charAt(a);
+        if ( c != ',' )
+        {
+        n++;
+        if ( n == 4 )
+        {
+        result = "," + result;
+        n = 1;
+        };
+        result = c + result;
+        };
+        };
+
+        if ( svals[1] )
+        {
+        result = result + '.' + svals[1];
+        };
+
+        obj.value = result;
+        };
+        };
+
+        //ให้ text รับค่าเป็นตัวเลขอย่างเดียว
+        function checknumber()
+        {
+        key = event.keyCode;
+        if ( key != 46 & ( key < 48 || key > 57 ) )
+        {
+        event.returnValue = false;
+        };
+         };
+  </script> 
+  
+---------
+
+<button id="save" type="button" class="btn btn-primary"><i class="fas fa-save" style="margin-right: 5px;"></i>ບັນທຶກ</button>
+                            <button type="button" class="btn btn-success"><i class="fas fa-search" style="margin-right: 5px;"></i>ຄົ້ນຫາ</button>
+                            <button type="button" class="btn btn-warning"><i class="fas fa-sync" style="margin-right: 5px;"></i>ລ້າງ</button>
+                            <button type="button" class="btn btn-danger float-right"><i class="fas fa-times" style="margin-right: 5px;"></i>ອອກ</button>
+
+<link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/sweetalert2.min.css">
+    <script src="bootstrap-4.4.1-dist/js/jquery-3.5.0.min.js"></script>
+    <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap-4.4.1-dist/js/sweetalert2.all.min.js"></script>
+
+ <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/sweetalert2.min.css">
+    <link rel="stylesheet" href="fontawesome-free-5.14.0-web/css/all.min.css">
+    <script src="bootstrap-4.5.0-dist/js/jquery-3.5.1.min.js"></script>
+    <script src="bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap-4.5.0-dist/js/sweetalert2.all.min.js"></script>
+
+-----
+    mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+    $conn->begin_transaction();
+    try{
+        if($sup_id>0){
+            $sql="
+                update tb_sup set
+            ";
+        }else{
+            $sql="
+                insert into tb_sup set
+            ";
+        }
+    
+        $conn->query($sql);
+        $conn->commit();
+    }catch(mysqli_sql_exception $exception){
+        $conn->rollback();
+        throw $exception;
+    }
+-----
+lightsteelblue
+#00ccff
+----
+ajax ເອົາເຄື່ອງໝາຍ double code ອອກ
+  data=data.replace(/\"/g, "");
+  $("#rate_sale").val(data);
+
+ajax ເອົາເຄື່ອງໝາຍຈຸດ #,###.00=>####.00 ທັງໝົດອອກ 
+  ac_cr=ac_cr.replace(/,/g,"");
+  rate_buy=rate_buy.replace(/,/g,"");
+
+ajax format number
+  $("#total_cr").val(total_cr.toLocaleString(2));
+
+----
+
+<button type="button" class="btn btn-primary" id="save"><i class="fas fa-save"></i><br>ບັນທຶກລາຍການ</button>
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#cus_modal"><i class="fas fa-search"></i><br>ຄົ້ນຫາລາຍການ</button>
+                            <button type="button" class="btn btn-warning" onclick="ajax('cus','mainpage');"><i class="fas fa-sync"></i><br>ລ້າງລາຍການ</button>
+                            <button type="button" class="btn btn-danger float-right" onclick="ajax('mainpage','mainpage');"><i class="fas fa-times"></i><br>ອອກລາຍການ</button>
+-----
+
+function show_rate_sale(money_name_sale){
+    $.ajax({
+        url:"show_rate_sale.php",
+        type:"get",
+        data:{
+            money_name_sale:money_name_sale
+        },
+        success:function(data){
+            data=data.replace(/\"/g, "");
+            $("#rate_sale").val(data);
+        }
+    })
+};
+
+----
+    function cal_total(){
+        let total=0;
+        let buy_qty=$("#buy_qty").val();
+        let buy_price=$("#buy_price").val();
+        
+        buy_qty=buy_qty.replace(/,/g,"");
+        buy_price=buy_price.replace(/,/g,"");
+        total=buy_qty*buy_price
+        $("#buy_total").val(total.toLocaleString(2));
+    }
+----
+add data to table
+  let count=$("#mytable tr").length;
+  count++;
+  let tr=$("<tr style='border-bottom:lightgrey 1px solid;'></tr>");
+  let td1=$("<td width='30'>"+count+"</td>");
+  tr.append(td1);
+  $("#mytable").append(tr);
+----
+cal_net
+
+function cal_net(){
+            let net_dr=0;
+            let net_cr=0;
+            let all_net_dr=0;
+            let all_net_cr=0;
+
+            $("#mytable tbody tr").each(function(){
+                net_dr=$(this).find("td:eq(8)").text().trim();
+                net_cr=$(this).find("td:eq(9)").text().trim();
+                net_dr=parseFloat(net_dr.replace(/,/g,""));
+                net_cr=parseFloat(net_cr.replace(/,/g,""));
+                all_net_dr+=parseFloat(net_dr);
+                all_net_cr+=parseFloat(net_cr);
+            });
+
+            $("#all_net_dr").val(all_net_dr.toLocaleString());
+            $("#all_net_cr").val(all_net_cr.toLocaleString());
+        };
+---
+
+function caltotal(){
+            let total=0;
+            let totalK=0;
+            let totalB=0;
+            let moneyid="";
+            let total_KIP=0;
+            let total_BAHT=0;
+            
+            $("#mytable tbody tr").each(function(){
+                moneyid=$(this).find("td:eq(3)").text().trim();
+                if(moneyid=="K"){
+                    totalK=$(this).find("td:eq(2)").text().trim();
+                    totalK=parseFloat(totalK.replace(/,/g,""));
+                    total_KIP+=parseFloat(totalK);
+                }else if(moneyid=="B"){
+                    totalB=$(this).find("td:eq(2)").text().trim();
+                    totalB=parseFloat(totalB.replace(/,/g,""));
+                    total_BAHT+=parseFloat(totalB);
+                }
+            });
+            $("#totalK").val(total_KIP.toLocaleString());
+            $("#totalB").val(total_BAHT.toLocaleString());
+        };
+        
+----
+
+insert to database from table
+
+let mydata=[];
+$("#mytable tbody tr").each(function(row,tr){
+  
+    let sub={
+        num:$(tr).find("td:eq(1)").text(),
+        price:$(tr).find("td:eq(2)").text(),
+        moneyid:$(tr).find("td:eq(3)").text()
+    }
+    mydata.push(sub);
+});
+
+$.ajax({
+    url:"sale_save.php",
+    type:"post",
+    data:{
+        sid:sid,
+        tyid:tyid,
+        tiid:tiid,
+        mydata:mydata
+    },
+    success:function(data){
+        data=data.replace(/\"/g, "");
+        window.open("print_buy.php?buy_code="+data);
+        ajax('buy','mainpage');
+    }
+})
+
+
+
+<?php
+    include("config.php");
+
+    $gen_date=date("Y-m-d H:i:s",$_POST["gen_date"]);
+    $gen_code=$_POST["gen_code"];
+    $gen_note=$_POST["gen_note"];
+    $mydata=$_POST["mydata"];
+
+    for($i=0;$i<count($mydata);$i++){
+        $sql="
+            insert into tb_general set
+            gen_date='".$gen_date."',
+            gen_code='".$gen_code."',
+            ac_code='".$mydata[$i]["my_gen_code"]."',
+            gen_note='".$gen_note."',
+            ac_dr='".str_replace(",","",$mydata[$i]["my_acc_dr"])."',
+            ac_cr='".str_replace(",","",$mydata[$i]["my_acc_cr"])."',
+            money_name='".$mydata[$i]["money_name"]."',
+            gen_rate='".str_replace(",","",$mydata[$i]["money_rate"])."'
+        ";
+
+        $conn->query($sql);
+    }
+
+ 
+?>
+----
+print
+
+table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+@page{
+    size: auto;
+    margin: 0mm 5mm 0mm 0mm;top right bottom left
+}
+
+<script>
+    print_body();
+
+    function print_body(){
+        window.print();
+    }
+    window.onafterprint=function(e){
+        closePrinter();
+    }
+    function closePrinter(){
+        // window.location.href="index.php";
+        window.history.back();
+        // ajax('apsent','mainpage');
+    }
+</script>
+----
+
+php format_date
+$dtp1=$_REQUEST["dtp1"];
+    $dtp2=$_REQUEST["dtp2"];
+
+    $dtp1=date("d-m-Y",strtotime($dtp1));
+    $dtp2=date("d-m-Y",strtotime($dtp2));
