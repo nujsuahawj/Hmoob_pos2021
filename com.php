@@ -38,7 +38,7 @@
                         <td colspan="2">
                             <hr>
                             <button id="save" type="button" class="btn btn-primary"><i class="fas fa-save"></i><br>ບັນທຶກລາຍການ</button>
-                            <button onclick="ajax('mainpage','mainpage');" type="button" class="btn btn-primary float-right"><i class="fas fa-sign-out-alt"></i><br>ອອກລາຍການ</button>
+                            <button id="oos" onclick="ajax('mainpage','mainpage');" type="button" class="btn btn-primary float-right"><i class="fas fa-sign-out-alt"></i><br>ອອກລາຍການ</button>
                         </td>
                     </tr>
                 </table>

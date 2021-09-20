@@ -1,57 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body{
-            background-color: #f2f2f2;
-            font-family: Phetsarath OT;
-        }
-        .form-control:focus{
-            border:#0099cc 1px solid;
-            box-shadow: 0 0 #0099cc;
-        }
-    </style>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <style>
+            body{
+                background-color: #f2f2f2;
+            }
+            .form-control:focus{
+                border:#0099cc 1px solid;
+                box-shadow: 0 0 #0099cc;
+            }
+        </style>
+        <link rel="stylesheet" href="./bootstrap-4.5.0-dist/css/bynuj.css">
+    </head>
 <body>
-    <div class="row">
-        <div class="col-sm-4"></div>
-        <div class="col-sm-4">
+    <div class="card-body">
             <div class="row">
-                <div class="col-sm-2"></div>
-                    <div class="col-sm-8">
-                        <div style="border-radius: 6px; box-shadow:0 -6px #0099cc, 0 0 20px lightgrey;
-                            padding:10px; border:1px solid #d9d9d9; margin-top:50px; background-color:white;">
-                            <center>
-                                <i class="fas fa-user-circle" style="font-size: 100px; color:#0099cc;"></i>
-                                <h1><u>ເຂົ້າສູ່ລະບົບ</u></h1><hr>
-                            </center>
-                            <table width="100%">
-                                <tr>
-                                    <td>ຊື່ຜູ້ໃຊ້ :</td>
-                                    <td><input autocomplete="off" type="text" class="form-control" name="us_name" id="us_name"></td>
-                                </tr>
-                                <tr>
-                                    <td>ລະຫັດຜ່ານ :</td>
-                                    <td><input autocomplete="off" type="password" class="form-control" name="us_pass" id="us_pass"></td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2"><hr>
-                                        <button type="button" id="login" class="btn btn-primary" style="width:100%;"><i class="fas fa-key" style="margin-right:6px;"></i>ເຂົ້າສູ່ລະບົບ</button>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                    <div class="row">
+                        <div class="col-sm-2"></div>
+                            <div class="col-sm-8">
+                                <div style="border-radius: 6px; box-shadow:0 -6px #0099cc, 0 0 20px lightgrey;
+                                    padding:10px; border:1px solid #d9d9d9; margin-top:50px; background-color:white;">
+                                    <center>
+                                        <i class="fas fa-user-circle" style="font-size: 100px; color:#0099cc;"></i><br><br><br>
+                                        <h1>ເຂົ້າສູ່ລະບົບ</h1><br>
+                                    </center>
+                                    <table width="100%">
+                                        <tr>
+                                            <td>ຊື່ຜູ້ໃຊ້ :</td>
+                                            <td><input autocomplete="off" type="text" class="form-control" name="us_name" id="us_name"><br></td>
+                                        </tr>
+                                        <tr>
+                                            <td>ລະຫັດ :</td>
+                                            <td><input autocomplete="off" type="password" class="form-control" name="us_pass" id="us_pass"></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2"><br>
+                                                <button type="button" id="login" class="btn btn-primary" style="width:100%;"><i class="fas fa-key" style="margin-right:6px;"></i>ເຂົ້າສູ່ລະບົບ</button>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        <div class="col-sm-2"></div>
                     </div>
-                <div class="col-sm-2"></div>
+                </div>
+                <div class="col-sm-4"></div>
             </div>
-        </div>
-        <div class="col-sm-4"></div>
     </div>
-
     <script>
         $(Document).ready(function(){
             $("#us_name").focus();

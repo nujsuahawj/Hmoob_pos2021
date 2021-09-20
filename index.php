@@ -70,7 +70,8 @@
                 }
             }
         ?>
-    </div>
+    </div><br><br><br>
+    <?php include("footer.php"); ?>
 
     <script>
         function ajax(Vr,Div){

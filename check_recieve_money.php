@@ -16,11 +16,11 @@
             </table>
         </div>
         <div class="col-sm-9">
-            <button style="margin-left:6px;" type="button" class="btn btn-primary"
+            <button id="nrhiav" style="margin-left:6px;" type="button" class="btn btn-primary"
             onclick="ajax('check_recieve_list&date_start='+document.getElementById('date_start').value+'&date_end='+document.getElementById('date_end').value,'check_recieve_list');">
             <i class="fas fa-search"></i><br>ຄົ້ນຫາລາຍການ</button>
-            <button onclick="window.open('check_recieve_list_print.php?date_start='+document.getElementById('date_start').value+'&date_end='+document.getElementById('date_end').value);" type="button" class="btn btn-primary"><i class="fas fa-print"></i><br>ພິມລາຍການ</button>
-            <button type="button" class="btn btn-primary float-right" onclick="ajax('mainpage','mainpage');"><i class="fas fa-sign-out-alt"></i><br>ອອກລາຍການ</button>
+            <button id="txuav" onclick="window.open('check_recieve_list_print.php?date_start='+document.getElementById('date_start').value+'&date_end='+document.getElementById('date_end').value);" type="button" class="btn btn-primary"><i class="fas fa-print"></i><br>ພິມລາຍການ</button>
+            <button id="oos" type="button" class="btn btn-primary" onclick="ajax('mainpage','mainpage');"><i class="fas fa-sign-out-alt"></i><br>ອອກລາຍການ</button>
         </div>
     </div>
     <div class="row">

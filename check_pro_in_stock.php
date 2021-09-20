@@ -11,10 +11,10 @@
             </select>
         </div>
         <div class="col-sm-10">
-            <button type="button" style="margin-top: 8px;" class="btn btn-primary"
+            <button id="nrhiav" type="button" style="margin-top: 8px;" class="btn btn-primary"
             onclick="window.open('check_pro_in_stock_print.php?st_id='+document.getElementById('st_id').value);"
             ><i class="fas fa-print"></i><br>ພິມລາຍການ</button>
-            <button type="button" style="margin-top: 8px;" class="btn btn-primary float-right" onclick="ajax('mainpage','mainpage');"><i class="fas fa-sign-out-alt"></i><br>ອອກລາຍການ</button>
+            <button id="oos" type="button" style="margin-top: 8px;" class="btn btn-primary " onclick="ajax('mainpage','mainpage');"><i class="fas fa-sign-out-alt"></i><br>ອອກລາຍການ</button>
         </div>
     </div>
 

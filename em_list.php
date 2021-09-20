@@ -1,10 +1,10 @@
 <table width="100%" style="margin-top:10px;" class="table-hover">
     <thead>
         <tr style="border-top:#0099ff 4px solid;border-bottom:lightgrey 1px solid;">
-            <td width="70">ລຳດັບ</td>
-            <td>ລາຍຊື່ພະນັກງານ</td>
-            <td width="170">ເບີໂທລະສັບ</td>
-            <td width="170">ສະຖານະ</td>
+            <td width="50">ລດ</td>
+            <td width="140">ລາຍຊື່</td>
+            <td width="160">ເບີໂທ</td>
+            <td width="160">ສະຖານະ</td>
             <td width="92">ເລືອກ?</td>
         </tr>
     </thead>

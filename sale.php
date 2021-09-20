@@ -149,8 +149,8 @@
             <div class="col-sm-1">
                 <button id="add" type="button" style="width:100%; margin-bottom:4px;" class="btn btn-primary"><i class="fas fa-plus"></i><br>ເພີ່ມ</button>
                 <button id="save" type="button" style="width:100%; margin-bottom:4px;" class="btn btn-primary"><i class="fas fa-save"></i><br>ບັນທຶກ</button>
-                <button onclick="ajax('sale','mainpage');" type="button" style="width:100%; margin-bottom:4px;" class="btn btn-primary"><i class="fas fa-sync"></i><br>ລ້າງໃໝ່</button>
-                <button onclick="ajax('mainpage','mainpage');" type="button" style="width:100%;" class="btn btn-primary"><i class="fas fa-sign-out-alt"></i><br>ອອກ</button>
+                <button onclick="ajax('sale','mainpage');" type="button" style="width:100%; margin-bottom:4px;" class="btn btn-primary" id="txuav"><i class="fas fa-sync"></i><br>ລ້າງໃໝ່</button>
+                <button onclick="ajax('mainpage','mainpage');" type="button" style="width:100%;" class="btn btn-primary" id="oos"><i class="fas fa-sign-out-alt"></i><br>ອອກ</button>
             </div>
         </div>
         </div>

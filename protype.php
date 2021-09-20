@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-4.5.0-dist/css/bynuj.css">
+</head>
+<body>
 <?php include("protype_modal.php");?>
 
 <div class="row">
@@ -10,10 +19,10 @@
                 <input type="hidden" name="pt_id" id="pt_id">
                 <label for="">ຊື່ປະເພດສິນຄ້າ</label>
                 <input autocomplete="off" type="text" class="form-control" name="pt_name" id="pt_name"><hr>
-                <button id="save" type="button" class="btn btn-primary"><i class="fas fa-save"></i><br>ບັນທຶກລາຍການ</button>
-                <button data-toggle="modal" data-target="#protype_modal" type="button" class="btn btn-primary"><i class="fas fa-search"></i><br>ຄົ້ນຫາລາຍການ</button>
-                <button onclick="ajax('protype','mainpage');" type="button" class="btn btn-primary"><i class="fas fa-sync"></i><br>ລ້າງລາຍການ</button>
-                <button onclick="ajax('mainpage','mainpage');" type="button" class="btn btn-primary float-right"><i class="fas fa-sign-out-alt"></i><br>ອອກລາຍການ</button>
+                <button id="save" type="button" class="btn btn-primary "><i class="fas fa-save" ></i><br>ບັນທຶກລາຍການ</button>
+                <button data-toggle="modal" data-target="#protype_modal" type="button" class="btn btn-primary" id="nrhiav"><i class="fas fa-search"></i><br>ຄົ້ນຫາລາຍການ</button>
+                <button onclick="ajax('protype','mainpage');" type="button" class="btn btn-primary" id="txuav"><i class="fas fa-sync"></i><br>ລ້າງລາຍການ</button>
+                <button onclick="ajax('mainpage','mainpage');" type="button" class="btn btn-primary " id="oos"><i class="fas fa-sign-out-alt"></i><br>ອອກລາຍການ</button>
             </form>
 
         </div>
@@ -57,3 +66,5 @@
         });
     });
 </script>
+</body>
+</html>

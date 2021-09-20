@@ -66,8 +66,8 @@
                     <td colspan="2">
                         <br>
                         <button id="save" type="button" class="btn btn-primary"><i class="fas fa-save"></i><br>ບັນທຶກລາຍການ</button>
-                        <button onclick="ajax('my_explode','mainpage');" type="button" class="btn btn-primary"><i class="fas fa-sync"></i><br>ລ້າງລາຍການ</button>
-                        <button onclick="ajax('mainpage','mainpage');" type="button" class="btn btn-primary float-right"><i class="fas fa-sign-out-alt"></i><br>ອອກລາຍການ</button>
+                        <button onclick="ajax('my_explode','mainpage');" type="button" class="btn btn-primary" id="txuav"><i class="fas fa-sync"></i><br>ລ້າງລາຍການ</button>
+                        <button onclick="ajax('mainpage','mainpage');" type="button" class="btn btn-primary" id="oos"><i class="fas fa-sign-out-alt"></i><br>ອອກລາຍການ</button>
                     </td>
                 </tr>
             </table>

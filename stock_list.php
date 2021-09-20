@@ -1,8 +1,8 @@
 <table width="100%" style="margin-top:10px;" class="table-hover">
     <thead>
         <tr style="border-top:#0099ff 4px solid;border-bottom:lightgrey 1px solid;">
-            <td width="70">ລຳດັບ</td>
-            <td>ລາຍຊື່ສາງສິນຄ້າ</td>
+            <td width="70">ລດ</td>
+            <td>ລາຍຊື່</td>
             <td width="92">ເລືອກ?</td>
         </tr>
     </thead>

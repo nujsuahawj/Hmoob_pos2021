@@ -29,9 +29,9 @@
                 </table><hr>
 
                 <button id="save" type="button" class="btn btn-primary"><i class="fas fa-save"></i><br>ບັນທຶກລາຍການ</button>
-                <button data-toggle="modal" data-target="#em_modal" type="button" class="btn btn-primary"><i class="fas fa-search"></i><br>ຄົ້ນຫາລາຍການ</button>
-                <button onclick="ajax('em','mainpage');" type="button" class="btn btn-primary"><i class="fas fa-sync"></i><br>ລ້າງລາຍການ</button>
-                <button onclick="ajax('mainpage','mainpage');" type="button" class="btn btn-primary float-right"><i class="fas fa-sign-out-alt"></i><br>ອອກລາຍການ</button>
+                <button data-toggle="modal" data-target="#em_modal" type="button" class="btn btn-primary" id="nrhiav"><i class="fas fa-search"></i><br>ຄົ້ນຫາລາຍການ</button>
+                <button onclick="ajax('em','mainpage');" type="button" class="btn btn-primary" id="txuav"><i class="fas fa-sync"></i><br>ລ້າງລາຍການ</button>
+                <button onclick="ajax('mainpage','mainpage');" type="button" class="btn btn-primary " id="oos"><i class="fas fa-sign-out-alt"></i><br>ອອກລາຍການ</button>
             </form>
         </div>
     </div>

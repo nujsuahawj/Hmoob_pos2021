@@ -2,8 +2,8 @@
     <thead>
     <tr style="border-top:#00ace6 4px solid;border-radius:8px; border-bottom:lightgrey 1px solid;">
             <td width="70">ລຳດັບ</td>
-            <td>ຊື່ໜ່ວຍນັບສິນຄ້າ</td>
-            <td width="150">ຈຳນວນຈັດເກັບ</td>
+            <td>ຊື່</td>
+            <td width="150">ຈຳນວນ</td>
             <td width="92">ເລືອກ?</td>
         </tr>
     </thead>

@@ -1,0 +1,175 @@
+body{
+    background-color: #f2f2f2;
+    font-family: Phetsarath OT;
+}
+*{
+    margin: 0 0;
+    padding: 0 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: phetsarath OT;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    font-family: phetsarath OT;
+    
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  .laib1{
+    font-size:20px; 
+    color:#DE3163;
+}
+.laib2{
+    font-size:45px; 
+    color:#DE3163;
+}
+.xiav1{
+    font-size:20px; 
+    color:Blue;
+}
+.xiav2{
+    font-size:45px; 
+    color:Blue;
+}
+.nyuab1{
+    font-size:20px; 
+    color:Green;
+}
+.nyuab2{
+    font-size:45px; 
+    color:Green;
+}
+.fas{
+    font-size: 50px;
+}
+.fab{
+    font-size: 50px;
+}
+  
+  @media screen and (max-width: 767px){
+    .laib{
+        border-radius: 3px; 
+        box-shadow:0 -2px #DE3163, 0 0 10px lightgrey;
+        padding-bottom:10px; 
+        padding-top:10px; 
+        border:1px solid #d9d9d9;
+        margin-top:10px; background-color:white;
+        width: auto;
+        height: auto;
+    }
+    .laib1{
+        font-size:7px; 
+        color:#DE3163;
+    }
+    .laib2{
+        font-size:8px; 
+        color:#DE3163;
+    }
+
+    .xiav{
+        border-radius: 3px; 
+        box-shadow:0 -2px Blue, 0 0 10px lightgrey;
+        padding-bottom:10px; 
+        padding-top:10px; 
+        border:1px solid #d9d9d9;
+        margin-top:10px; background-color:white;
+        width: auto;
+        height: auto;
+    }
+    .xiav1{
+        font-size:7px; 
+        color:Blue;
+    }
+    .xiav2{
+        font-size:8px; 
+        color:Blue;
+    }
+    .nyuab{
+        border-radius: 3px; 
+        box-shadow:0 -2px Green, 0 0 10px lightgrey;
+        padding-bottom:10px; 
+        padding-top:10px; 
+        border:1px solid #d9d9d9;
+        margin-top:10px; background-color:white;
+        width: auto;
+        height: auto;
+    }
+    .nyuab1{
+        font-size:7px; 
+        color:Green;
+    }
+    .nyuab2{
+        font-size:8px; 
+        color:Green;
+    }
+    .fas{
+        font-size: 20px;
+    }
+    .fab{
+        font-size: 20px;
+    }
+    .dropdown-item{
+        font-size: smaller;
+    }
+    #oos{
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+    #txuav{
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+    #nrhiav{
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+    #save{
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        margin-bottom: 5px;
+
+    }
+    #add{
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+  }
+
+
+  /* drawing navbar */
+
+  @media (max-width: 651px) {
+    .navbar-collapse {
+        background: rgb(81, 187, 233);
+        position: relative;
+        top: 20px;
+        left: -300px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 300px;
+        height: auto;
+        transition: all 0.3s ease;
+        display: block;
+    }
+    .navbar-collapse.collapsing {
+        height: 100vh;
+        margin-right: 50%;
+        transition: all 0.3s ease;
+        display: block;
+    }
+    .navbar-collapse.show {
+        left: 0;
+    }
+}
+

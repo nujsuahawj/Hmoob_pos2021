@@ -53,7 +53,7 @@
                 <u><h4>ລາຍການຂາຍໜ້າຮ້ານ</h4></u>
             </div>
             <div class="col-sm-4">
-                <button onclick="ajax('mainpage','mainpage');" type="button" style="width:90px;" class="btn btn-primary float-right"><i class="fas fa-sign-out-alt" style="margin-right:6px;"></i>ອອກ</button>
+                <button onclick="ajax('mainpage','mainpage');" type="button" style="width:90px;" class="btn btn-primary " id="oos"><i class="fas fa-sign-out-alt" style="margin-right:6px;"></i>ອອກ</button>
             </div>
         </div>
             

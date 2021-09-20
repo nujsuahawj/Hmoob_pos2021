@@ -1,7 +1,7 @@
 <table width="100%" class="table-hover" style="margin-top:10px;">
     <thead>
         <tr style="border-top:#0099ff 4px solid;border-bottom:lightgrey 1px solid;">
-            <td width="70">ລຳດັບ</td>
+            <td width="70">ລດ</td>
             <td width="130">ລະຫັດສິນຄ້າ</td>
             <td>ລາຍລະອຽດສິນຄ້າ</td>
             <td width="140">ໜ່ວຍຈັດເກັບ</td>

@@ -150,78 +150,109 @@
     $total_money_recieve_cash=$total_money_recieve_cash-$total_money_paid_cash;
     $total_money_recieve_bank=$total_money_recieve_bank-$total_money_paid_bank;
 ?>
-
-<div class="row" style="margin-top:10px;">
-    <div class="col-sm-4">
-    <div style="border-radius: 6px; box-shadow:0 -6px #DE3163, 0 0 20px lightgrey;
-                            padding-bottom:20px; padding-top:20px; border:1px solid #d9d9d9; margin-top:20px; background-color:white;">
-            <center>
-                <label for="" style="font-size:30px; color:#DE3163;">
-                <u>ຍອດຂາຍວັນນີ້</u>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home page</title>
+        <style>
+            body{
+                background-color: #f2f2f2;
+            }
+            .form-control:focus{
+                border:#0099cc 1px solid;
+                box-shadow: 0 0 #0099cc;
+            }
+        </style>
+        <link rel="stylesheet" href="./bootstrap-4.5.0-dist/css/bynuj.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row" style="margin-top:10px;">
+        <div class="col">
+        <div class="laib" style="border-radius: 6px; box-shadow:0 -6px #DE3163, 0 0 20px lightgrey;
+                                padding-bottom:20px; padding-top:20px; border:1px solid #d9d9d9;
+                                 margin-top:20px; background-color:white;">
+                <center>
+                <i class="fas fa-stopwatch-20"></i><br>
+                    <label  class="laib1">
+                    ຍອດຂາຍວັນນີ້
+                    </label><br>
+                    <label  class="laib2"><?php echo number_format($total_sale);?> </label>
+                </center>
+        </div>
+        </div>
+        <div class="col">
+        <div class="laib" style="border-radius: 6px; box-shadow:0 -6px #DE3163, 0 0 20px lightgrey;
+                padding-bottom:20px; padding-top:20px;; border:1px solid #d9d9d9; margin-top:20px; background-color:white;">
+                <center><i class="fas fa-soap"></i><br><label  class="laib1">
+                ຍອດຊື້ວັນນີ້
                 </label><br>
-                <label for="" style="font-size:60px; color:#DE3163;"><?php echo number_format($total_sale);?> </label>
+                <label  class="laib2"><?php echo number_format($total_buy);?> </label></center>
+            </div>
+        </div>
+        <div class="col">
+        <div class="laib" style="border-radius: 6px; box-shadow:0 -6px #DE3163, 0 0 20px lightgrey;
+                padding-bottom:20px; padding-top:20px;; border:1px solid #d9d9d9; margin-top:20px; background-color:white;">
+                <center><i class="fas fa-trailer"></i><br><label  class="laib1">
+                ຜົນໄດ້ຮັບວັນນີ້
+                </label><br>
+                <label  class="laib2"><?php echo number_format($total_total_net);?></label>
             </center>
+            </div>
         </div>
     </div>
-    <div class="col-sm-4">
-    <div style="border-radius: 6px; box-shadow:0 -6px #DE3163, 0 0 20px lightgrey;
-            padding-bottom:20px; padding-top:20px;; border:1px solid #d9d9d9; margin-top:20px; background-color:white;">
-            <center><label for="" style="font-size:30px; color:#DE3163;"><u>ຍອດຊື້ວັນນີ້</u>
-            </label><br>
-            <label for="" style="font-size:60px; color:#DE3163;"><?php echo number_format($total_buy);?> </label></center>
+    <div class="row" style="margin-top:20px;">
+        <div class="col">
+        <div class="xiav" style="border-radius: 6px; box-shadow:0 -6px Blue, 0 0 20px lightgrey;
+                padding-bottom:20px; padding-top:20px;; border:1px solid #d9d9d9; margin-top:20px; background-color:white;">
+                <center><i class="fab fa-ideal"></i><br><label class="xiav1" >ຈຳນວນລູກຄ້າວັນນີ້</label><br>
+                <label class="xiav2"><?php echo $sale_count;?></label></center>
+            </div>
+        </div>
+        <div class="col">
+        <div class="xiav" style="border-radius: 6px; box-shadow:0 -6px Blue, 0 0 20px lightgrey;
+                padding-bottom:20px; padding-top:20px;; border:1px solid #d9d9d9; margin-top:20px; background-color:white;">
+                <center><i class="fas fa-stopwatch-20"></i><br><label class="xiav1">ຍອດເງິນສົດວັນນີ້</label><br>
+                <label class="xiav2"><?php echo number_format($total_money_recieve_cash);?></label></center>
+            </div>
+        </div>
+        <div class="col">
+        <div class="xiav" style="border-radius: 6px; box-shadow:0 -6px Blue, 0 0 20px lightgrey;
+                padding-bottom:20px; padding-top:20px;; border:1px solid #d9d9d9; margin-top:20px; background-color:white;">
+                <center><i class="fas fa-box-tissue"></i><br><label class="xiav1">ຍອດເງິນຝາກວັນນີ້<br></label><br>
+                <label class="xiav2"><?php echo number_format($total_money_recieve_bank);?></label></center>
+            </div>
         </div>
     </div>
-    <div class="col-sm-4">
-    <div style="border-radius: 6px; box-shadow:0 -6px #DE3163, 0 0 20px lightgrey;
+    <div class="row" style="margin-top:20px;">
+    <div class="col">
+        <div class="nyuab" style="border-radius: 6px; box-shadow:0 -6px Green, 0 0 20px lightgrey;
             padding-bottom:20px; padding-top:20px;; border:1px solid #d9d9d9; margin-top:20px; background-color:white;">
-            <center><label for="" style="font-size:30px; color:#DE3163;"><u>ຜົນໄດ້ຮັບວັນນີ້</u><br>
-            <label for="" style="font-size:60px; color:#DE3163;"><?php echo number_format($total_total_net);?></label></label></center>
+                <center><i class="fab fa-shopify"></i><br><label class="nyuab1">ຍອດຂາຍໃນເດືອນນີ້<br></label><br>
+                <label class="nyuab2"><?php echo number_format($total_month);?></label>
+            </center>
+            </div>
+        </div>
+        <div class="col">
+        <div style="border-radius: 6px; box-shadow:0 -6px Green, 0 0 20px lightgrey;
+            padding-bottom:20px; padding-top:20px;; border:1px solid #d9d9d9; margin-top:20px; background-color:white;">
+                <center><i class="fas fa-pump-medical"></i><br><label class="nyuab1">ຍອດຊື້ໃນເດືອນນີ້</label><br>
+                <label class="nyuab2"><?php echo number_format($total_month_buy);?></label></center>
+            </div>
+        </div>
+        <div class="col">
+        <div style="border-radius: 6px; box-shadow:0 -6px Green, 0 0 20px lightgrey;
+            padding-bottom:20px; padding-top:20px;; border:1px solid #d9d9d9; margin-top:20px; background-color:white;">
+                <center><i class="fas fa-hand-holding-medical"></i><br><label class="nyuab1">ຜົນໄດ້ຮັບໃນເດືອນນີ້</label><br>
+                <label class="nyuab2"><?php echo number_format($total_total_net_month);?></label>
+                </center>
+            </div>
         </div>
     </div>
 </div>
-<div class="row" style="margin-top:20px;">
-    <div class="col-sm-4">
-    <div style="border-radius: 6px; box-shadow:0 -6px Blue, 0 0 20px lightgrey;
-            padding-bottom:20px; padding-top:20px;; border:1px solid #d9d9d9; margin-top:20px; background-color:white;">
-            <center><label for="" style="font-size:30px; color:Blue;"><u>ຈຳນວນລູກຄ້າວັນນີ້</u><br>
-            <label for="" style="font-size:60px; color:Blue;"><?php echo $sale_count;?></label></label></center>
-        </div>
-    </div>
-    <div class="col-sm-4">
-    <div style="border-radius: 6px; box-shadow:0 -6px Blue, 0 0 20px lightgrey;
-            padding-bottom:20px; padding-top:20px;; border:1px solid #d9d9d9; margin-top:20px; background-color:white;">
-            <center><label for="" style="font-size:30px; color:Blue;"><u>ຍອດເງິນສົດວັນນີ້</u><br>
-            <label for="" style="font-size:60px; color:Blue;"><?php echo number_format($total_money_recieve_cash);?></label></label></center>
-        </div>
-    </div>
-    <div class="col-sm-4">
-    <div style="border-radius: 6px; box-shadow:0 -6px Blue, 0 0 20px lightgrey;
-            padding-bottom:20px; padding-top:20px;; border:1px solid #d9d9d9; margin-top:20px; background-color:white;">
-            <center><label for="" style="font-size:30px; color:Blue;"><u>ຍອດເງິນຝາກວັນນີ້</u><br>
-            <label for="" style="font-size:60px; color:Blue;"><?php echo number_format($total_money_recieve_bank);?></label></label></center>
-        </div>
-    </div>
-</div>
-<div class="row" style="margin-top:20px;">
-<div class="col-sm-4">
-    <div style="border-radius: 6px; box-shadow:0 -6px Green, 0 0 20px lightgrey;
-        padding-bottom:20px; padding-top:20px;; border:1px solid #d9d9d9; margin-top:20px; background-color:white;">
-            <center><label for="" style="font-size:30px; color:Green;"><u>ຍອດຂາຍໃນເດືອນນີ້</u><br>
-            <label for="" style="font-size:60px; color:Green;"><?php echo number_format($total_month);?></label></label></center>
-        </div>
-    </div>
-    <div class="col-sm-4">
-    <div style="border-radius: 6px; box-shadow:0 -6px Green, 0 0 20px lightgrey;
-        padding-bottom:20px; padding-top:20px;; border:1px solid #d9d9d9; margin-top:20px; background-color:white;">
-            <center><label for="" style="font-size:30px; color:Green;"><u>ຍອດຊື້ໃນເດືອນນີ້</u><br>
-            <label for="" style="font-size:60px; color:Green;"><?php echo number_format($total_month_buy);?></label></label></center>
-        </div>
-    </div>
-    <div class="col-sm-4">
-    <div style="border-radius: 6px; box-shadow:0 -6px Green, 0 0 20px lightgrey;
-        padding-bottom:20px; padding-top:20px;; border:1px solid #d9d9d9; margin-top:20px; background-color:white;">
-            <center><label for="" style="font-size:30px; color:Green;"><u>ຜົນໄດ້ຮັບໃນເດືອນນີ້</u><br>
-            <label for="" style="font-size:60px; color:Green;"><?php echo number_format($total_total_net_month);?></label></label></center>
-        </div>
-    </div>
-</div>
+
+</body>
+</html>

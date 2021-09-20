@@ -1,9 +1,9 @@
 <table width="100%" style="margin-top:10px;" class="table-hover">
     <thead>
         <tr style="border-top:#0099ff 4px solid;border-bottom:lightgrey 1px solid;">
-            <td width="70">ລຳດັບ</td>
-            <td>ລາຍຊື່ຜູ້ສະໜອງ</td>
-            <td width="200">ໝາຍເລກໂທລະສັບ</td>
+            <td width="70">ລ/ດ</td>
+            <td width=100>ລາຍຊື່</td>
+            <td width="200">ເບີໂທ</td>
             <td width="250">ລາຍຊື່ຜູ້ຕິດຕໍ່</td>
             <td width="92">ເລືອກ?</td>
         </tr>
