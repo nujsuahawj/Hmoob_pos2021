@@ -42,14 +42,14 @@ body{
     font-size:45px; 
     color:Green;
 }
-.fas{
-    font-size: 50px;
-}
-.fab{
-    font-size: 50px;
+#fass{
+    font-size: 60;
 }
   
   @media screen and (max-width: 767px){
+    #fass{
+        font-size: 20;
+    }
     .laib{
         border-radius: 3px; 
         box-shadow:0 -2px #DE3163, 0 0 10px lightgrey;
@@ -104,12 +104,6 @@ body{
     .nyuab2{
         font-size:8px; 
         color:Green;
-    }
-    .fas{
-        font-size: 20px;
-    }
-    .fab{
-        font-size: 20px;
     }
     .dropdown-item{
         font-size: smaller;

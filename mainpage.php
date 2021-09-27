@@ -176,7 +176,7 @@
                                 padding-bottom:20px; padding-top:20px; border:1px solid #d9d9d9;
                                  margin-top:20px; background-color:white;">
                 <center>
-                <i class="fas fa-stopwatch-20"></i><br>
+                <i id="fass" class="fas fa-stopwatch-20"></i><br>
                     <label  class="laib1">
                     ຍອດຂາຍວັນນີ້
                     </label><br>
@@ -187,7 +187,7 @@
         <div class="col">
         <div class="laib" style="border-radius: 6px; box-shadow:0 -6px #DE3163, 0 0 20px lightgrey;
                 padding-bottom:20px; padding-top:20px;; border:1px solid #d9d9d9; margin-top:20px; background-color:white;">
-                <center><i class="fas fa-soap"></i><br><label  class="laib1">
+                <center><i id="fass" class="fas fa-soap"></i><br><label  class="laib1">
                 ຍອດຊື້ວັນນີ້
                 </label><br>
                 <label  class="laib2"><?php echo number_format($total_buy);?> </label></center>
@@ -196,7 +196,7 @@
         <div class="col">
         <div class="laib" style="border-radius: 6px; box-shadow:0 -6px #DE3163, 0 0 20px lightgrey;
                 padding-bottom:20px; padding-top:20px;; border:1px solid #d9d9d9; margin-top:20px; background-color:white;">
-                <center><i class="fas fa-trailer"></i><br><label  class="laib1">
+                <center><i id="fass" class="fas fa-trailer"></i><br><label  class="laib1">
                 ຜົນໄດ້ຮັບວັນນີ້
                 </label><br>
                 <label  class="laib2"><?php echo number_format($total_total_net);?></label>
@@ -208,21 +208,21 @@
         <div class="col">
         <div class="xiav" style="border-radius: 6px; box-shadow:0 -6px Blue, 0 0 20px lightgrey;
                 padding-bottom:20px; padding-top:20px;; border:1px solid #d9d9d9; margin-top:20px; background-color:white;">
-                <center><i class="fab fa-ideal"></i><br><label class="xiav1" >ຈຳນວນລູກຄ້າວັນນີ້</label><br>
+                <center><i id="fass" class="fab fa-ideal"></i><br><label class="xiav1" >ຈຳນວນລູກຄ້າວັນນີ້</label><br>
                 <label class="xiav2"><?php echo $sale_count;?></label></center>
             </div>
         </div>
         <div class="col">
         <div class="xiav" style="border-radius: 6px; box-shadow:0 -6px Blue, 0 0 20px lightgrey;
                 padding-bottom:20px; padding-top:20px;; border:1px solid #d9d9d9; margin-top:20px; background-color:white;">
-                <center><i class="fas fa-stopwatch-20"></i><br><label class="xiav1">ຍອດເງິນສົດວັນນີ້</label><br>
+                <center><i id="fass" class="fas fa-stopwatch-20"></i><br><label class="xiav1">ຍອດເງິນສົດວັນນີ້</label><br>
                 <label class="xiav2"><?php echo number_format($total_money_recieve_cash);?></label></center>
             </div>
         </div>
         <div class="col">
         <div class="xiav" style="border-radius: 6px; box-shadow:0 -6px Blue, 0 0 20px lightgrey;
                 padding-bottom:20px; padding-top:20px;; border:1px solid #d9d9d9; margin-top:20px; background-color:white;">
-                <center><i class="fas fa-box-tissue"></i><br><label class="xiav1">ຍອດເງິນຝາກວັນນີ້<br></label><br>
+                <center><i id="fass" class="fas fa-box-tissue"></i><br><label class="xiav1">ຍອດເງິນຝາກວັນນີ້<br></label><br>
                 <label class="xiav2"><?php echo number_format($total_money_recieve_bank);?></label></center>
             </div>
         </div>
@@ -231,7 +231,7 @@
     <div class="col">
         <div class="nyuab" style="border-radius: 6px; box-shadow:0 -6px Green, 0 0 20px lightgrey;
             padding-bottom:20px; padding-top:20px;; border:1px solid #d9d9d9; margin-top:20px; background-color:white;">
-                <center><i class="fab fa-shopify"></i><br><label class="nyuab1">ຍອດຂາຍໃນເດືອນນີ້<br></label><br>
+                <center><i id="fass" class="fab fa-shopify"></i><br><label class="nyuab1">ຍອດຂາຍໃນເດືອນນີ້<br></label><br>
                 <label class="nyuab2"><?php echo number_format($total_month);?></label>
             </center>
             </div>
@@ -239,14 +239,14 @@
         <div class="col">
         <div style="border-radius: 6px; box-shadow:0 -6px Green, 0 0 20px lightgrey;
             padding-bottom:20px; padding-top:20px;; border:1px solid #d9d9d9; margin-top:20px; background-color:white;">
-                <center><i class="fas fa-pump-medical"></i><br><label class="nyuab1">ຍອດຊື້ໃນເດືອນນີ້</label><br>
+                <center><i id="fass" class="fas fa-pump-medical"></i><br><label class="nyuab1">ຍອດຊື້ໃນເດືອນນີ້</label><br>
                 <label class="nyuab2"><?php echo number_format($total_month_buy);?></label></center>
             </div>
         </div>
         <div class="col">
         <div style="border-radius: 6px; box-shadow:0 -6px Green, 0 0 20px lightgrey;
             padding-bottom:20px; padding-top:20px;; border:1px solid #d9d9d9; margin-top:20px; background-color:white;">
-                <center><i class="fas fa-hand-holding-medical"></i><br><label class="nyuab1">ຜົນໄດ້ຮັບໃນເດືອນນີ້</label><br>
+                <center><i id="fass" class="fas fa-hand-holding-medical"></i><br><label class="nyuab1">ຜົນໄດ້ຮັບໃນເດືອນນີ້</label><br>
                 <label class="nyuab2"><?php echo number_format($total_total_net_month);?></label>
                 </center>
             </div>
